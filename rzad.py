@@ -44,8 +44,8 @@ def rzad_macierzy(A):
     
     return rzad
 
-print(rzad_macierzy(macierz))
-print(np.linalg.matrix_rank(macierz))
+print(rzad_macierzy(macierz1))
+print(np.linalg.matrix_rank(macierz1))
 
 print(rzad_macierzy(macierz2))
 print(np.linalg.matrix_rank(macierz2))
